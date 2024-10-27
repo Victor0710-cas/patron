@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Barbero Men's Grooming</title>
+  <title>Patron Men's Grooming</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/x-icon" href="images/short-logo.png">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <div class="logo">Barbero</div>
+    <div class="logo">Patron</div>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a href="#book" class="book-btn">Book Now</a></li>
+        <li><a href="buy.html" class="book-btn">Buy Now</a></li>
       </ul>
     </nav>
   </header>
@@ -25,7 +25,7 @@
       <h1>Patron Presents...</h1>
       <h2 style="color: white;">Barber Cap</h2>
       <p>Say goodbye to bad hair days</p>
-      <a href="#book" class="cta-btn">Book a partnership or buy individual subscription</a>
+      <a href="buy.html" class="cta-btn">Book a partnership or buy individual subscription</a>
     </div>
     <img src="images/hero-image.jpg" alt="" class="hero-image">
   </section>
@@ -61,36 +61,57 @@
     </div>
   </section>
 
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="product-item">
+      <img src="images/barber-cap.jpg" alt="Barber Cap" class="product-image">
+      <div class="product-description">
+        <h3>Barber Cap</h3>
+        <p>Keep your style fresh and your hair in check with our premium Barber Cap. Designed for comfort and style.</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+  </section>
+
   <section id="gallery">
     <h2><strong>Gallery</strong></h2>
     <div class="gallery-grid">
       <div class="gallery-item">
-        <img src="images/gallery1.jpg" alt="Gallery Image 1">
-        <div class="gallery-description">Description of Image 1</div>
+        <img src="images/hair 1.jpeg" alt="Gallery Image 1">
+        <div class="gallery-description">HAIRCUT & BEARD</div>
       </div>
       <div class="gallery-item">
-        <img src="images/gallery2.jpg" alt="Gallery Image 2">
-        <div class="gallery-description">Description of Image 2</div>
+        <img src="images/hair 2.jpeg" alt="Gallery Image 2">
+        <div class="gallery-description">CLASSIC FADE</div>
       </div>
       <div class="gallery-item">
-        <img src="images/gallery3.jpg" alt="Gallery Image 3">
-        <div class="gallery-description">Description of Image 3</div>
+        <img src="images/hair3.jpeg" alt="Gallery Image 3">
+        <div class="gallery-description">HIGH FADE</div>
       </div>
       <div class="gallery-item">
-        <img src="images/gallery4.jpg" alt="Gallery Image 4">
-        <div class="gallery-description">Description of Image 4</div>
+        <img src="images/hair 4.jpeg" alt="Gallery Image 4">
+        <div class="gallery-description">SKIN TAPER</div>
       </div>
       <div class="gallery-item">
-        <img src="images/gallery5.jpg" alt="Gallery Image 5">
-        <div class="gallery-description">Description of Image 5</div>
+        <img src="images/hair5.jpeg" alt="Gallery Image 5">
+        <div class="gallery-description">LOW TAPER</div>
       </div>
       <div class="gallery-item">
-        <img src="images/gallery6.jpg" alt="Gallery Image 6">
-        <div class="gallery-description">Description of Image 6</div>
+        <img src="images/hair6.jpeg" alt="Gallery Image 6">
+        <div class="gallery-description">HAIRCUT & BEARD</div>
       </div>
       <div class="gallery-item">
-        <img src="images/gallery7.jpg" alt="Gallery Image 7">
-        <div class="gallery-description">Description of Image 7</div>
+        <img src="images/hair 7.jpeg" alt="Gallery Image 7">
+        <div class="gallery-description">BEARD TRIM</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="quote-section" style="text-align: center; margin: 40px 0;">
+    <div style="position: relative; display: inline-block; max-width: 100%; width: 100%;">
+      <img src="images/barber.jpeg" alt="Inspirational Image" style="width: 100%; height: auto; border-radius: 10px;">
+      <div style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); color: white; font-size: 24px; font-family: 'Georgia', serif; padding: 10px 20px; text-align: center;">
+        "Invest in your hair, it's the crown you never take off." <br> ~ Victor Castro
       </div>
     </div>
   </section>
@@ -105,21 +126,6 @@
   <footer>
     <p>© 2024 Barbero Men's Grooming. All rights reserved.</p>
   </footer>
-
-  <!-- Booking Modal -->
-  <div id="booking-modal" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <h2>Book Your Appointment</h2>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <input type="submit" value="Submit">
-      </form>
-    </div>
-  </div>
 
   <script src="script.js"></script>
 </body>
